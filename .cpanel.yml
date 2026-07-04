@@ -2,4 +2,11 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/lstocks3/vidacellenlaweb.com/
-    - /bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='README.md' --exclude='docs' ./ $DEPLOYPATH
+    - /bin/mkdir -p ${DEPLOYPATH}assets/css
+    - /bin/mkdir -p ${DEPLOYPATH}assets/js
+    - /bin/mkdir -p ${DEPLOYPATH}assets/img/logo
+    - /bin/cp -f index.html ${DEPLOYPATH}index.html
+    - /bin/cp -f robots.txt ${DEPLOYPATH}robots.txt
+    - /bin/cp -f sitemap.xml ${DEPLOYPATH}sitemap.xml
+    - /bin/cp -f assets/css/style.css ${DEPLOYPATH}assets/css/style.css
+    - /bin/cp -f assets/js/main.js ${DEPLOYPATH}assets/js/main.js
