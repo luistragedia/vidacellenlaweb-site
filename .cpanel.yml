@@ -12,3 +12,5 @@ deployment:
     - /bin/cp -f assets/js/main.js ${DEPLOYPATH}assets/js/main.js
     - /bin/cp -f assets/img/logo/vidacell-logo.svg ${DEPLOYPATH}assets/img/logo/vidacell-logo.svg
     - /bin/cp -f assets/img/logo/favicon.svg ${DEPLOYPATH}assets/img/logo/favicon.svg
+    - /bin/cp -f assets/img/logo/vidacell-logo-fixed.svg ${DEPLOYPATH}assets/img/logo/vidacell-logo-fixed.svg
+    - /bin/cp -f assets/img/logo/favicon-vc.svg ${DEPLOYPATH}assets/img/logo/favicon-vc.svg
