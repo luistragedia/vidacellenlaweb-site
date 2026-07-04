@@ -8,8 +8,8 @@
   <meta name="description" content="VidaCell en la Web es una plataforma en construcción orientada a tecnología, comercio digital, servicios técnicos y futuras soluciones para clientes, talleres y aliados comerciales." />
   <meta name="theme-color" content="#071014" />
 
-  <link rel="icon" type="image/svg+xml" href="assets/img/logo/favicon.svg" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo/favicon.svg?v=20260704-2" />
+  <link rel="stylesheet" href="assets/css/style.css?v=20260704-2" />
 </head>
 <body>
 
@@ -17,13 +17,9 @@
     <div class="container header-content">
       <a class="brand" href="#" aria-label="VidaCell en la Web">
         <img class="brand-logo" src="assets/img/logo/vidacell-logo.svg" alt="VidaCell" />
-        <span class="brand-copy">
-          <strong>VidaCell en la Web</strong>
-          <small>Tecnología y comercio digital</small>
-        </span>
       </a>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="Navegación principal">
         <a href="#proyecto">Proyecto</a>
         <a href="#areas">Áreas</a>
         <a href="#talleres">Talleres</a>
@@ -35,70 +31,86 @@
   <main>
 
     <section class="hero">
+      <div class="hero-bg hero-bg-one"></div>
+      <div class="hero-bg hero-bg-two"></div>
+
       <div class="container hero-grid">
         <div class="hero-text">
-          <span class="eyebrow">Plataforma en construcción</span>
-          <h1><span>VidaCell</span> conecta tecnología, comercio digital y servicios para Latinoamérica.</h1>
+          <span class="eyebrow">Plataforma digital en construcción</span>
+          <h1>Una base tecnológica para comercio, servicios y talleres conectados.</h1>
           <p>
-            VidaCell en la Web nace como una plataforma digital pensada para conectar productos,
-            servicios técnicos, talleres y soluciones comerciales en un solo ecosistema.
+            VidaCell en la Web nace como una marca flexible para conectar productos, soporte técnico,
+            aliados comerciales y futuras herramientas digitales orientadas a volumen.
           </p>
 
           <div class="hero-actions">
             <a class="btn primary" href="#proyecto">Conocer el proyecto</a>
             <a class="btn secondary" href="#contacto">Contactar</a>
           </div>
+
+          <div class="hero-tags" aria-label="Líneas del proyecto">
+            <span>Comercio digital</span>
+            <span>Servicio técnico</span>
+            <span>Red de talleres</span>
+          </div>
         </div>
 
-        <div class="hero-card">
-          <img class="hero-logo" src="assets/img/logo/vidacell-logo.svg" alt="VidaCell" />
+        <aside class="hero-panel" aria-label="Resumen VidaCell">
+          <div class="logo-frame">
+            <img class="hero-logo" src="assets/img/logo/vidacell-logo.svg" alt="VidaCell" />
+          </div>
           <p>
-            Una marca en evolución hacia comercio online, servicios técnicos y herramientas digitales
-            para clientes, aliados y talleres.
+            Una marca en evolución hacia comercio online, servicios técnicos y sistemas para clientes,
+            aliados y talleres.
           </p>
-          <ul>
-            <li>Comercio digital</li>
-            <li>Servicios técnicos</li>
-            <li>Red de talleres</li>
-            <li>Soluciones para volumen</li>
-          </ul>
-        </div>
+          <div class="mini-grid">
+            <span>Productos</span>
+            <span>Soporte</span>
+            <span>Aliados</span>
+            <span>Volumen</span>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section id="proyecto" class="section">
-      <div class="container">
+    <section id="proyecto" class="section intro-section">
+      <div class="container narrow">
         <span class="section-label">El proyecto</span>
-        <h2>Una base digital para crecer paso a paso</h2>
+        <h2>Una plataforma madre para crecer paso a paso</h2>
         <p class="section-text">
-          VidaCell en la Web está pensada como una marca flexible, capaz de evolucionar hacia
-          venta de productos, servicios tecnológicos, soporte técnico y sistemas online para negocios
-          relacionados con reparación, distribución y atención al cliente.
+          VidaCell en la Web está pensada como una base digital capaz de evolucionar hacia venta de productos,
+          servicios tecnológicos, soporte técnico y sistemas online para negocios relacionados con reparación,
+          distribución y atención al cliente.
         </p>
       </div>
     </section>
 
-    <section id="areas" class="section muted">
+    <section id="areas" class="section areas-section">
       <div class="container">
-        <span class="section-label">Áreas futuras</span>
-        <h2>Una plataforma con varias líneas de crecimiento</h2>
+        <div class="section-heading">
+          <span class="section-label">Áreas futuras</span>
+          <h2>Varias líneas de crecimiento bajo una misma marca</h2>
+        </div>
 
         <div class="cards">
           <article class="card">
+            <span class="card-number">01</span>
             <h3>Comercio digital</h3>
             <p>
               Venta, distribución o consulta de productos tecnológicos, accesorios, repuestos y soluciones online.
             </p>
           </article>
 
-          <article class="card">
+          <article class="card cyan-card">
+            <span class="card-number">02</span>
             <h3>Servicios técnicos</h3>
             <p>
               Soporte, diagnóstico, reparación y orientación para clientes que necesitan soluciones tecnológicas.
             </p>
           </article>
 
-          <article class="card">
+          <article class="card dark-card">
+            <span class="card-number">03</span>
             <h3>Aliados y talleres</h3>
             <p>
               Herramientas futuras para talleres, subtalleres y negocios que quieran organizar clientes,
@@ -109,7 +121,7 @@
       </div>
     </section>
 
-    <section id="talleres" class="section">
+    <section id="talleres" class="section workshop-section">
       <div class="container split">
         <div>
           <span class="section-label">Próximamente</span>
@@ -121,15 +133,14 @@
         </div>
 
         <div class="future-box">
-          <h3>Idea futura</h3>
-          <p>Subdominio previsto:</p>
+          <span class="future-label">Subdominio previsto</span>
           <code>talleres.vidacellenlaweb.com</code>
         </div>
       </div>
     </section>
 
     <section id="contacto" class="section contact">
-      <div class="container">
+      <div class="container narrow">
         <span class="section-label">Contacto</span>
         <h2>Estamos construyendo la primera versión</h2>
         <p>
@@ -143,11 +154,12 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-content">
+      <img src="assets/img/logo/vidacell-logo.svg" alt="VidaCell" />
       <p>© 2026 VidaCell en la Web. Todos los derechos reservados.</p>
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=20260704-2"></script>
 </body>
 </html>
