@@ -10,7 +10,5 @@ deployment:
     - /bin/cp -f sitemap.xml ${DEPLOYPATH}sitemap.xml
     - /bin/cp -f assets/css/style.css ${DEPLOYPATH}assets/css/style.css
     - /bin/cp -f assets/js/main.js ${DEPLOYPATH}assets/js/main.js
-    - /bin/cp -f assets/img/logo/vidacell-logo.svg ${DEPLOYPATH}assets/img/logo/vidacell-logo.svg
-    - /bin/cp -f assets/img/logo/favicon.svg ${DEPLOYPATH}assets/img/logo/favicon.svg
-    - /bin/cp -f assets/img/logo/vidacell-logo-fixed.svg ${DEPLOYPATH}assets/img/logo/vidacell-logo-fixed.svg
-    - /bin/cp -f assets/img/logo/favicon-vc.svg ${DEPLOYPATH}assets/img/logo/favicon-vc.svg
+    - /bin/cp -f assets/img/logo/vidacell-logo.png ${DEPLOYPATH}assets/img/logo/vidacell-logo.png
+    - /bin/cp -f assets/img/logo/favicon.png ${DEPLOYPATH}assets/img/logo/favicon.png
