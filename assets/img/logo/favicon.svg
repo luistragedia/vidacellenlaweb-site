@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="VidaCell favicon">
+  <rect width="128" height="128" rx="28" fill="#071014"/>
+  <path d="M18 35l23 62h16l23-62H61L49 76 37 35H18z" fill="#e6007e"/>
+  <path d="M104 48c-8-9-19-14-32-14-19 0-34 13-34 31s15 31 34 31c13 0 24-5 32-14L91 68c-5 6-11 9-19 9-9 0-16-5-16-12s7-12 16-12c8 0 14 3 19 9l13-14z" fill="#13d4e8" opacity="0.96"/>
+  <polyline points="17,25 38,25 45,13 53,41 61,25 88,25 94,15 101,38 108,25 119,25" fill="none" stroke="#39ff5a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
