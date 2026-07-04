@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lstocks3/vidacellenlaweb.com/
+    - /bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='README.md' --exclude='docs' ./ $DEPLOYPATH
