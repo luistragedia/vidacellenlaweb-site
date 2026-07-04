@@ -1,22 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 255" width="720" height="255" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
   <title id="title">VidaCell</title>
-  <desc id="desc">Logotipo VidaCell con teléfono, pulso, texto magenta y cyan.</desc>
-  <defs>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#071014" flood-opacity="0.22"/>
-    </filter>
-  </defs>
+  <desc id="desc">Logotipo VidaCell ajustado a las proporciones originales.</desc>
 
-  <g filter="url(#shadow)">
-    <path d="M28 28h275c22 0 39 17 39 39v83" fill="none" stroke="#071014" stroke-width="10" stroke-linecap="round"/>
-    <path d="M28 28C13 28 5 42 5 58v83c0 19 12 34 31 34" fill="none" stroke="#071014" stroke-width="10" stroke-linecap="round"/>
-    <rect x="58" y="42" width="235" height="107" rx="5" fill="#071014"/>
-    <rect x="24" y="84" width="9" height="52" rx="5" fill="#071014"/>
-    <circle cx="318" cy="96" r="20" fill="#ffffff" stroke="#071014" stroke-width="7"/>
-    <circle cx="318" cy="96" r="11" fill="#39ff5a"/>
-    <polyline points="65,96 147,96 161,56 177,137 190,88 199,106 249,106 263,54 279,140 288,88 298,105 318,96" fill="none" stroke="#39ff5a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <path d="M22 25h268c22 0 39 17 39 39v86" fill="none" stroke="#071014" stroke-width="9" stroke-linecap="round"/>
+    <path d="M22 25C2 25-14 42-14 64v77c0 22 16 39 38 39" fill="none" stroke="#071014" stroke-width="9" stroke-linecap="round"/>
+    <rect x="38" y="38" width="238" height="110" rx="4" fill="#071014"/>
+    <rect x="8" y="82" width="8" height="48" rx="4" fill="#071014"/>
+    <circle cx="302" cy="94" r="19" fill="#ffffff" stroke="#071014" stroke-width="7"/>
+    <circle cx="302" cy="94" r="11" fill="#47f75a"/>
+    <polyline points="48,94 129,94 143,49 159,136 171,87 181,105 229,105 243,50 258,136 268,86 278,104 302,94" fill="none" stroke="#47f75a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
-  <text x="35" y="224" font-family="Impact, Arial Black, Arial, Helvetica, sans-serif" font-size="110" font-weight="900" letter-spacing="-4" fill="#e6007e">VIDA</text>
-  <text x="315" y="224" font-family="Impact, Arial Black, Arial, Helvetica, sans-serif" font-size="110" font-weight="900" font-style="italic" letter-spacing="-2" fill="#13d4e8">CELL</text>
+  <g font-family="Arial Black, Impact, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="42" y="240" font-size="126" letter-spacing="-8" fill="#e6007e">VIDA</text>
+    <text x="321" y="240" font-size="126" letter-spacing="-3" font-style="italic" fill="#13d4e8">CELL</text>
+  </g>
 </svg>
